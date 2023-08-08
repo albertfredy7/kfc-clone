@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins Medium', sans-serif;
+}
+
+li, a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+i{
+    color: black;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background-color: white; /* Set the background color of the header to white */
+}
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .navbar-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 1fr=250px */
+    gap: .5rem;
+    align-items: center;
+    /* width: 500px; */
+  }
+  .link i{
+    font-size: 10px;
+    color: black;
+}
+  
+  .nav_links {
+    list-style: none;
+  }
+  .nav_links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  .nav_links .nav-logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  /* Add margin to SVG logos */
+  .nav-logos a svg {
+    margin-right: 40px;
+  }
+  
+.order{
+    padding: 10px 30px;
+    color: white;
+    background-color: #e4002b;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+  }
+  .delivery-location {
+    width: 100%;
+    background-color: #202124;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 120px;
+}
+
+.location{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.hero{ 
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.title h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 30%;
+
+}
+
+.title-img{
+    background-size: cover;
+    margin-right: 50%;
+}
+
+.info_box{
+    width: 100%;
+    background-color: #202124;
+    height: 50px;
+    color: white;
+    font-size: small;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 10px;
+}  
+.heading-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 20% 5% 12%;
+}
+.heading-title h1{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+.heading-title a{
+    margin-right: -10%
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: #f8f7f5;
+    margin: 10px; /* Add margin to create space between the cards */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.card .food-info{
+    background-color: white;
+    width: 360px;
+    padding-top: 30px;
+    height: 200px;
+}
+.learn-more-container{
+    background-color: #e4002b;
+}
+.title1{
+    color: white;
+}
+#order1{
+    padding: 10px 30px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.title1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 20% 5% 20%;
+    padding-top: 3%;
+}
+.stripes{
+    background-color: white;
+    width: 30px;
+    height: 50px;
+}
+#stripe{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 150px;
+    height: 150px;
+}
+.title-content p{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+
+
+}
+#learn-more{
+    height: 300px;
+}
+#dark{
+    color: white;
+    background-color: #202124;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 3%;
+
+}
+.sign-me-up{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 20%;
+}
+.signup{
+    width: 100%;
+    background-color: #F8F6F4;
+}
+.sign-left{
+    align-items: center;
+    margin-top: 10%;
+}
+.footer p{
+    color: white;
+    font-size: small;
+    font-weight: 100;
+    margin-left: 20%;
+    margin-right: 40%;
+    padding-top: 30px;
+}
+.calorie{
+    padding-top: 20%;
+}
